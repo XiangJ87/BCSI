@@ -92,7 +92,7 @@ The default values of these parameters can reproduce the results represented in 
 
 ##### Part4. experimental results in our dataset
 
-We generate 6 dataset with different settings, which can be downloaded in [here](https://url).
+We generate 6 dataset with different settings, which can be downloaded in [here](https://drive.google.com/open?id=1jk8yFdSD-5bSjM72FeQ_uvlDT7pJ2Tu3).
 
 This project outperforms the state-of-the-arts, and we present the detail comparison as follow. See Table II-IV.
 
@@ -108,7 +108,7 @@ These figures are ploted by Microsoft Excel, where the x-axis is the predicted c
 
 Therefore, the best scenario is that each bar is composed by a pure color.
 
-In these figures, the left is the results of **CCC**, and the right is obtained by ours.
+In these figures, the left is the results of **CCC**, and the right is obtained by ours. From top to bottom, the datasets is from D1 to D6.
 
 
 ![Fig. 1](https://github.com/XiangJ87/BCSI/blob/master/Figures/D1Comparison.png?raw=true)

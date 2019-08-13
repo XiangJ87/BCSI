@@ -111,7 +111,7 @@ Therefore, the best scenario is that each bar is composed by a pure color.
 In these figures, the left is the results of **CCC**, and the right is obtained by ours. From top to bottom, the datasets is from D1 to D6.
 
 
-![Fig. 1](https://github.com/XiangJ87/BCSI/blob/master/Figures/D1Comparison.png?raw=true)
+![Fig. 1](https://github.com/XiangJ87/BCSI/blob/master/Figures/D1Comparison.png?raw=true){:height="100"}
 ***
 ![Fig. 2](https://github.com/XiangJ87/BCSI/blob/master/Figures/D2Comparison.png?raw=true)
 ***

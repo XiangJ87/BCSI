@@ -6,7 +6,7 @@ This is the DEMO of Blind Camera Source Identification.
 
 ##### Part1. environment preparation
 
-Our project is implemented on Python3 (>3.5), the packages are listed in `env.txt`. 
+Our project is implemented on Python3 (>3.5), Ubunut. The packages are listed in `env.txt`. 
 
 To reproduce our python environment, pls run this on terminal:
 ```bash
@@ -71,7 +71,7 @@ Then the output is like:
 ```
 where the first few lines like `||Z-C||=2.19e-20, ||C1-C2||=1.39e-05, iteration=6` is the optimization processing, and the last several lines is the performance of BCSI.
 
-In fact, the project can be run by inputting `S`, and the performance can be evaluated by feeding the ground truth label.
+To run the self-generated data, just specific the path of `S` and `gt`, which are the input similarity matrix and ground truth array, respectively. Note that they are saved with `.npy`.  
 
 ***
 
@@ -87,18 +87,29 @@ There are several parameters in this project:
 
 * `errThr`: the error threshold to terminate the loop. Default to `1e-6`.
 
-Above parameters can be modified in `.\run_test.py`.  
-
+The default values of these parameters can reproduce the results represented in our paper, and they can be modified in `run_test.py`.
 ***
 
 ##### Part4. experimental results in our dataset
 
-We generate 6 dataset with different settings (see detail in our paper [1]), which can be downloaded in [here](https://url).
+We generate 6 dataset with different settings, which can be downloaded in [here](https://url).
 
-This project outperforms the state-of-the-arts, and we present the detail comparison as follow.
+This project outperforms the state-of-the-arts, and we present the detail comparison as follow. See Table II-IV.
+
+![Table. 1](https://github.com/XiangJ87/BCSI/blob/master/Figures/TableII-IV.png?raw=true)
+
 
 
 ###### The detail of Clusters on different dataset.
+
+We compare the results with the **CCC**, whose source code can be found in [here](http://www.grip.unina.it/index.php?option=com_content&view=article&id=79&Itemid=489&jsmallfib=1&dir=JSROOT/Blind_PRNUClustering).
+
+These figures are ploted by Microsoft Excel, where the x-axis is the predicted clusters, y-axis is the image number. Different color denotes the different categories.
+
+Therefore, the best scenario is that each bar is composed by a pure color.
+
+In these figures, the left is the results of **CCC**, and the right is obtained by ours.
+
 
 ![Fig. 1](https://github.com/XiangJ87/BCSI/blob/master/Figures/D1Comparison.png?raw=true)
 ***
@@ -111,3 +122,5 @@ This project outperforms the state-of-the-arts, and we present the detail compar
 ![Fig. 5](https://github.com/XiangJ87/BCSI/blob/master/Figures/D5Comparison.png?raw=true)
 ***
 ![Fig. 6](https://github.com/XiangJ87/BCSI/blob/master/Figures/D6Comparison.png?raw=true)
+
+***

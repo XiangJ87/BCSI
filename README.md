@@ -6,7 +6,7 @@ This is the DEMO of Blind Camera Source Identification.
 
 ##### Part1. environment preparation
 
-Our project is implemented on Python3 (>3.5), Ubunut. The packages are listed in `env.txt`. 
+Our project is implemented on Python3 (>3.5), ubunutu. The packages are listed in `env.txt`. 
 
 To reproduce our python environment, pls run this on terminal:
 ```bash
@@ -20,7 +20,6 @@ pip install -r env.txt
 
 The DEMO can be run by:
 ```bash
-source activate demo_dbcsi
 python run_test.py ./TestingData/S.npy ./TestingData/gt.npy
 ```
 where `./TestingData/S.npy` is the input matrix `S` and `./TestingData/gt.npy` is the ground truth label.
@@ -108,7 +107,7 @@ These figures are ploted by Microsoft Excel, where the x-axis is the predicted c
 
 Therefore, the best scenario is that each bar is composed by a pure color.
 
-In these figures, the left is the results of **CCC**, and the right is obtained by ours. From top to bottom, the datasets is from D1 to D6.
+In these figures, the left subfigures are the results of **CCC**, and the right subfigures are obtained by ours. From top to bottom, the datasets is from D1 to D6.
 
 
 ![Fig. 1](https://github.com/XiangJ87/BCSI/blob/master/Figures/D1Comparison.png?raw=true)

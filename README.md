@@ -8,6 +8,8 @@ This is the DEMO of Blind Camera Source Identification.
 
 Our project is implemented on Python3 (>3.5), ubunutu. The packages are listed in `env.txt`. 
 
+*ATTENTION: The python version should be 3.6. If the project is running under python==3.7 or higher, it will report errors like “bad magic number”.*
+
 To reproduce our python environment, pls run this on terminal:
 ```bash
 cd BCSI
